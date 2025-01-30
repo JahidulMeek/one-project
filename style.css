@@ -1,0 +1,44 @@
+.container{
+    width:1410px;
+    margin:0 auto;
+    height:300px;
+    background-color:red;
+    
+}
+.box{
+    display:flex;
+    /* justify-content:space-between; */
+}
+.logo-part{
+    width:20%;
+    background-color:aqua;
+}
+.menu-part{
+    width:60%;
+    background-color:rgb(140, 255, 0);
+    
+}
+.button-part{
+    width:20%;
+    background-color:rgb(136, 102, 217);
+}
+.ulone{                      /*.ulone{} or nav .menu-part ul{}*/
+    display:flex;
+    list-style:none;
+    column-gap:48px;
+}
+nav .menu-part ul li a {  /*nav .menu-part ul li a{} or a{}.as well as before of class name,ul,li,a tag have to remain  minimum a space*/
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600px;
+    font-family: "Open Sans", serif;
+    color:#29313D;
+    transition:.5s;
+    
+}
+nav .menu-part ul l:hover a{ /*nav .menu-part ul li:hover a{} or nav menu-part ul li a:hover*/
+    color:#8454F5
+}
+nav .menu-part ul li a i{
+    margin-left:300px;
+}
